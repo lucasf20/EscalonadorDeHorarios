@@ -22,9 +22,9 @@ public class Professor {
         return disp;
     }
 
-    private Horarios getDisponibilidade(){
-        String cond = "id_prof = " + id;
-        String[] dias = BancoDeDados.getCollunm("dia","disponibilidadeprofessor",cond);
-        String[] horarios = BancoDeDados.getCollunm("dia","disponibilidadeprofessor",cond);
-    }
+//    private Horarios getDisponibilidade(){
+//        String cond = "id_prof = " + id;
+//        String[] dias = BancoDeDados.getCollunm("dia","disponibilidadeprofessor",cond);
+//        String[] horarios = BancoDeDados.getCollunm("horario","disponibilidadeprofessor",cond);
+//    }
 }
